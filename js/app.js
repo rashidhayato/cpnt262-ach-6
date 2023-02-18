@@ -4,11 +4,11 @@ const number = prompt("Enter a number: ");
 // Step 1: Rearrange the console logs so that the statements are correct
 
 if (number > 100) {
-  console.log("The number is greater than 100");
   
+  console.log("The number is negative");
   
 } else if (number > 0 && number < 101) {
-  console.log("The number is negative");
+  console.log("The number is greater than 100");
   
 } else if (number === 0) {
   console.log("The number is 0");
